@@ -22,3 +22,6 @@ coverage/
 .agents/
 agent/
 .claude/
+
+# Devpost Learn: personal learning context stays out of commits
+/devpost/learner-profile.md
