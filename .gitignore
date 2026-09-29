@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+dist/
+coverage/
+
+# logs and OS files
+*.log
+.DS_Store
+
+# deployment
+.vercel
+
+# env files (keep a secret-free example)
+.env*
+!.env.example
+
+# locally installed agent skills (reinstall with `npx skills add challengepost/learn-ai-basics --all -y`)
+.agents/
+agent/
+.claude/
